@@ -1,0 +1,22 @@
+/* General body style */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Navbar color override */
+.navbar-dark.bg-dark {
+  background-color: #1f3a60 !important; /* corporate blue */
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(to right, #eaf0f9, #ffffff);
+}
+
+/* Footer */
+footer {
+  background-color: #1f3a60;
+  color: #fff;
+}
