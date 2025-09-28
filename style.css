@@ -25,7 +25,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -37,8 +37,8 @@ body {
 /* Services card images */
 #services .card-img-top {
   width: 100%;
-  height: auto; /* keep natural proportions */
-  object-fit: contain; /* show whole logo/image */
+  height: auto;
+  object-fit: contain;
   background: #fff;
   padding: 10px;
   border-bottom: 1px solid #eee;
@@ -47,7 +47,7 @@ body {
 /* Team section images */
 #team .card-img-top {
   width: 100%;
-  height: auto; /* show full photo without cropping */
+  height: auto;
   object-fit: contain;
   background: #f8f9fa;
   padding: 5px;
@@ -57,14 +57,14 @@ body {
 /* Clients logos */
 #clients img {
   width: 100%;
-  max-width: 150px; /* keep them consistent */
+  max-width: 150px;
   height: auto;
   object-fit: contain;
   background: #fff;
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 6px;
-  margin: 0 auto; /* center horizontally */
+  margin: 0 auto;
   display: block;
   transition: transform 0.2s ease-in-out;
 }
@@ -75,7 +75,7 @@ body {
 
 /* Legalitas image */
 #legalitas img {
-  max-width: 90%; /* responsive */
+  max-width: 90%;
   height: auto;
   border: 2px solid #eee;
   background: #fff;
@@ -88,4 +88,28 @@ body {
 footer {
   background-color: #1f3a60;
   color: #fff;
+}
+
+/* ----------------------------- */
+/* Mobile view fixes */
+/* ----------------------------- */
+@media (max-width: 768px) {
+  /* Add space below contact form */
+  #contact form {
+    margin-bottom: 2rem;
+  }
+
+  /* Client grid: 2 columns on small screens */
+  #clients .row > div {
+    flex: 0 0 50%; /* 2 per row */
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Client grid: 3 columns on tablets */
+  #clients .row > div {
+    flex: 0 0 33.3333%; /* 3 per row */
+    max-width: 33.3333%;
+  }
 }
