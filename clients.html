@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Klien Kami - Kapilar Consulting</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* General body */
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fdfdfd;
+        color: #333;
+      }
+
+      /* Navbar */
+      .navbar {
+        font-weight: 600;
+      }
+      .navbar .nav-link {
+        color: #0a2a66 !important;
+        transition: color 0.3s;
+      }
+      .navbar .nav-link.active,
+      .navbar .nav-link:hover {
+        color: #d4a017 !important; /* gold */
+      }
+
+      /* Clients section */
+      #clients img {
+        max-width: 150px; /* limit size */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        background: #fff;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      #clients img:hover {
+        transform: scale(1.05);
+      }
+
+      /* Mobile adjustments */
+      @media (max-width: 576px) {
+        #clients img {
+          max-width: 90px; /* smaller logos on phones */
+          padding: 5px;
+        }
+      }
+
+      /* Footer */
+      footer {
+        background-color: #1f3a60;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center"
+          href="index.html"
+        >
+          <img
+            src="images/logo.png"
+            alt="Kapilar Consulting"
+            height="40"
+            class="me-2"
+          />
+          Kapilar Consulting
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Tim Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="clients.html">Klien</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Clients Section -->
+    <section id="clients" class="bg-light py-5">
+      <div class="container text-center">
+        <h2 class="mb-4 fw-bold">Klien Kami</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-6 col-md-3">
+            <img src="images/hasta.png" alt="Hasta Sakti Sejati" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/haston.png" alt="Haston" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/jarisk.png" alt="JARIS & K" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/kencana.png" alt="Kencana Baja Ringan" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/natawira.png" alt="Natawira Wastu Kencana" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/kgs.png" alt="KGS" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/driatama.png" alt="Driatama Kencana Global" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/elevarm.png" alt="Elevarm" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/khodayis.png" alt="PT KHODAYIS MURNI" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/sapa.png" alt="PT. Sapa Bangun Prima" />
+          </div>
+          <div class="col-6 col-md-3">
+            <img
+              src="images/shanghai.png"
+              alt="Shanghai Baoye Group Corp., LTD."
+            />
+          </div>
+          <div class="col-6 col-md-3">
+            <img src="images/surya.png" alt="PT. SURYA SEMESTA SAKTI" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+      <p class="mb-0">&copy; 2025 Kapilar Consulting. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
