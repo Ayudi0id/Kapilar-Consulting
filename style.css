@@ -1,35 +1,29 @@
-/* ----------------------------- */
-/* General Styles */
-/* ----------------------------- */
+/* ==============================
+   GENERAL STYLE
+============================== */
 body {
   font-family: "Segoe UI", sans-serif;
   background-color: #fdfdfd;
   color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 700;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* ----------------------------- */
-/* Navbar */
-/* ----------------------------- */
+/* ==============================
+   NAVBAR
+============================== */
 .navbar {
-  background-color: #ffffff !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  font-weight: 600;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .navbar-brand {
+  color: #0a2a66 !important;
 }
 
 .navbar .nav-link {
   color: #0a2a66 !important;
+  font-weight: 600;
   transition: color 0.3s;
 }
 
@@ -38,19 +32,20 @@ html {
   color: #d4a017 !important; /* gold highlight */
 }
 
-.navbar-brand {
-  color: #0a2a66 !important;
+.navbar-toggler {
+  border: none;
 }
 
-/* ----------------------------- */
-/* Hero Section */
-/* ----------------------------- */
+/* ==============================
+   HERO SECTION
+============================== */
 .hero {
   background: url("images/bg.png") no-repeat center center;
   background-size: cover;
   color: #fff;
-  height: 90vh;
   position: relative;
+  text-align: center;
+  padding: 8rem 1rem;
 }
 
 .hero::before {
@@ -60,7 +55,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(10, 42, 102, 0.6); /* overlay */
+  background: rgba(15, 28, 70, 0.65);
   z-index: 1;
 }
 
@@ -69,43 +64,70 @@ html {
   z-index: 2;
 }
 
-/* ----------------------------- */
-/* Cards (General + Services) */
-/* ----------------------------- */
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ==============================
+   SECTION HEADERS
+============================== */
+section h2 {
+  font-weight: 700;
+  color: #0a2a66;
+}
+
+/* ==============================
+   SERVICES / CARDS
+============================== */
 .card {
   border: none;
   border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* Services card images */
 .card-img-top {
   width: 100%;
-  max-height: 150px; /* smaller size */
+  height: 180px;
   object-fit: contain;
   background: #fff;
+  padding: 10px;
+}
+
+/* ==============================
+   TEAM
+============================== */
+#team .card-img-top {
+  height: 260px;
+  object-fit: contain;
+  background: #f8f9fa;
   padding: 10px;
   border-bottom: 1px solid #eee;
 }
 
-/* ----------------------------- */
-/* Clients Logos */
-/* ----------------------------- */
+/* ==============================
+   CLIENTS
+============================== */
 #clients img {
   width: 100%;
-  max-width: 120px; /* smaller size */
-  max-height: 100px;
+  max-width: 150px;
   height: auto;
   object-fit: contain;
   background: #fff;
   border: 1px solid #ddd;
-  padding: 8px;
-  border-radius: 6px;
+  padding: 10px;
+  border-radius: 8px;
   margin: 0 auto;
   display: block;
   transition: transform 0.2s ease-in-out;
@@ -115,63 +137,113 @@ html {
   transform: scale(1.05);
 }
 
-/* ----------------------------- */
-/* Forms */
-/* ----------------------------- */
-form .form-control {
-  border-radius: 8px;
-  padding: 12px;
-  border: 1px solid #ccc;
+/* Mobile view for client logos */
+@media (max-width: 576px) {
+  #clients img {
+    max-width: 90px;
+    padding: 6px;
+  }
 }
 
-form .btn {
-  border-radius: 8px;
-  padding: 12px;
-}
-
-/* ----------------------------- */
-/* Footer */
-/* ----------------------------- */
-footer {
-  background-color: #0a2a66;
+/* ==============================
+   CONTACT PAGE
+============================== */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
   color: #fff;
 }
 
-/* ----------------------------- */
-/* Floating WhatsApp */
-/* ----------------------------- */
+.contact-item i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: #d4a017;
+}
+
+/* Input field styling */
+form input,
+form textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #0a2a66;
+  box-shadow: 0 0 5px rgba(10, 42, 102, 0.3);
+}
+
+/* Make phone field accept only numbers visually */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ==============================
+   FOOTER SECTION
+============================== */
+.footer-section {
+  background-color: #0a2a66;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.footer-section h6 {
+  color: #d4a017;
+  font-weight: 700;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #d4a017 !important;
+}
+
+/* ==============================
+   WHATSAPP FLOAT BUTTON
+============================== */
 .whatsapp-float {
   position: fixed;
-  width: 55px;
-  height: 55px;
   bottom: 20px;
   right: 20px;
   background-color: #25d366;
-  color: #fff;
+  color: white;
+  font-size: 1.8rem;
   border-radius: 50%;
-  text-align: center;
-  font-size: 28px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
 .whatsapp-float:hover {
-  background-color: #1ebe5d;
-  color: #fff;
+  background-color: #1ebc57;
+  transform: scale(1.1);
 }
 
-/* ----------------------------- */
-/* Responsive Fixes */
-/* ----------------------------- */
+/* ==============================
+   RESPONSIVE FIXES
+============================== */
 @media (max-width: 768px) {
   .hero {
-    height: auto;
-    padding: 80px 20px;
-    text-align: center;
+    padding: 6rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 
   #clients .row > div {
@@ -186,3 +258,4 @@ footer {
     max-width: 33.3333%;
   }
 }
+

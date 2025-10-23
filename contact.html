@@ -18,19 +18,13 @@
     />
     <link href="style.css" rel="stylesheet" />
   </head>
+
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a
-          class="navbar-brand fw-bold d-flex align-items-center"
-          href="index.html"
-        >
-          <img
-            src="images/logo.png"
-            alt="Kapilar Consulting"
-            height="40"
-            class="me-2"
-          />
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+          <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
           Kapilar Consulting
         </a>
         <button
@@ -43,118 +37,106 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">Tentang Kami</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Layanan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Tim Kami</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="clients.html">Klien</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Kontak</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Layanan</a></li>
+            <li class="nav-item"><a class="nav-link" href="team.html">Tim Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="clients.html">Klien</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Kontak</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Contact -->
-    <section class="py-5">
+    <!-- Contact Section -->
+    <section class="py-5 bg-light">
       <div class="container" data-aos="fade-up">
-        <h2 class="text-center mb-4">Hubungi Kami</h2>
-        <div class="row">
+        <div class="row align-items-center">
+          <!-- Left Info -->
           <div class="col-md-6 mb-4">
-            <form>
-              <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nama Lengkap"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <input
-                  type="tel"
-                  class="form-control"
-                  placeholder="Nomor Telepon"
-                  pattern="[0-9+ ]+"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  rows="4"
-                  placeholder="Pesan Anda"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">
-                Kirim Pesan
-              </button>
-            </form>
+            <h2 class="fw-bold mb-3">Hubungi Kami</h2>
+            <p>
+              Kapilar Consulting adalah mitra terpercaya dalam pengurusan
+              legalitas konstruksi, perizinan, dan sertifikasi badan usaha.
+            </p>
+
+            <h6 class="text-uppercase mt-4 text-secondary">Call Center (Call & WhatsApp)</h6>
+<p class="fs-5 fw-bold mb-1">
+  <a href="https://wa.me/6285280438151" target="_blank" class="text-decoration-none text-primary">
+    <i class="bi bi-whatsapp me-2 text-success"></i> +62 852 8043 8151
+  </a>
+</p>
+
+
+            <h6 class="text-uppercase mt-4 text-secondary">Email</h6>
+            <p><i class="bi bi-envelope me-2"></i> kapilar_consulting@gmail.com</p>
+
+            <h6 class="text-uppercase mt-4 text-secondary">Alamat</h6>
+            <p>
+              <i class="bi bi-geo-alt me-2"></i> Perkantoran Ruko Ayodhya, Unit RK003, Lt. Dasar Tower Jade,
+              Kota Tangerang
+            </p>
           </div>
-          <div class="col-md-6">
-            <h5><i class="bi bi-geo-alt-fill text-primary me-2"></i>Alamat</h5>
-            <p>
-              Perkantoran Ruko Ayodhya, Unit RK003, Lt. Dasar Tower Jade, Kota
-              Tangerang
-            </p>
-            <h5>
-              <i class="bi bi-telephone-fill text-success me-2"></i>Telepon /
-              WhatsApp
-            </h5>
-            <p>
-              <a
-                href="https://wa.me/6285280438151"
-                target="_blank"
-                class="text-decoration-none"
-                >0852-8043-8151</a
-              >
-            </p>
-            <h5><i class="bi bi-instagram text-danger me-2"></i>Instagram</h5>
-            <p>
-              <a
-                href="https://instagram.com/Kapilar_Consulting"
-                target="_blank"
-                class="text-decoration-none"
-                >@Kapilar_Consulting</a
-              >
-            </p>
-            <h5><i class="bi bi-map text-primary me-2"></i>Peta Lokasi</h5>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!..."
-              width="100%"
-              height="250"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
+
+          <!-- Right Image -->
+          <div class="col-md-6 text-center" data-aos="zoom-in">
+            <img
+              src="images/contact-photo.jpg"
+              alt="Konsultasi Kapilar Consulting"
+              class="img-fluid rounded shadow contact-image"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="text-center py-3">
-      <p class="mb-0">&copy; 2025 Kapilar Consulting. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="footer-section text-light py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Logo and Description -->
+          <div class="col-md-4 mb-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
+              <h5 class="fw-bold">Kapilar Consulting</h5>
+            </div>
+            <p>
+              Layanan profesional dalam legalitas konstruksi, perizinan usaha,
+              dan sertifikasi badan usaha di seluruh Indonesia.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i> 0852-8043-8151</p>
+            <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i> kapilar_consulting@gmail.com</p>
+            <p class="mb-1">
+              <i class="bi bi-geo-alt-fill me-2"></i> Perkantoran Ruko Ayodhya, Unit RK003,
+              Lt. Dasar Tower Jade, Kota Tangerang
+            </p>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="col-md-4 mb-4">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
+              <li><a href="about.html" class="text-light text-decoration-none">Tentang Kami</a></li>
+              <li><a href="services.html" class="text-light text-decoration-none">Layanan</a></li>
+              <li><a href="contact.html" class="text-light text-decoration-none">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary" />
+        <p class="text-center mb-0 small">&copy; 2025 Kapilar Consulting. All rights reserved.</p>
+      </div>
     </footer>
-    <a href="https://wa.me/6285280438151" target="_blank" class="whatsapp-float"
-      ><i class="bi bi-whatsapp"></i
-    ></a>
+
+    <!-- WhatsApp Floating -->
+    <a href="https://wa.me/6285280438151" target="_blank" class="whatsapp-float">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
