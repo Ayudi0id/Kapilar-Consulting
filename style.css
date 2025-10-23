@@ -295,7 +295,7 @@ input[type="number"]::-webkit-outer-spin-button {
    LAYANAN HEADER SECTION
 ============================== */
 .layanan-header {
-  background: url(images/service-bg.jpg) no-repeat center center/cover;
+  background: url(images/service-bg.webp) no-repeat center center/cover;
   min-height: 80vh;
   padding: 5rem 0;
   position: relative;
