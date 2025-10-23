@@ -9,67 +9,150 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
   </head>
+
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+      <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
+      Kapilar Consulting
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="clients.html">Klien</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- Header + Jaminan -->
+    <section class="layanan-header text-light d-flex align-items-center">
       <div class="container">
-        <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
-          <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
-          Kapilar Consulting
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
-            <li class="nav-item"><a class="nav-link active" href="services.html">Layanan</a></li>
-            <li class="nav-item"><a class="nav-link" href="team.html">Tim Kami</a></li>
-            <li class="nav-item"><a class="nav-link" href="clients.html">Klien</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
-          </ul>
+        <div class="row align-items-center gy-4">
+          <!-- Kiri -->
+          <div class="col-lg-6" data-aos="fade-right">
+            <h1 class="fw-bold mb-3">Layanan Kami</h1>
+            <p class="lead mb-4">
+              Kami menyediakan layanan legalitas dan perizinan untuk mendukung bisnis dan proyek Anda.
+            </p>
+            <p>
+              Dapatkan solusi cepat, profesional, dan terpercaya dengan Kapilar Consulting.
+            </p>
+          </div>
+
+          <!-- Kanan -->
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="row g-3">
+              <div class="col-6 col-md-6">
+                <div class="card border-0 shadow-sm text-center text-dark h-100 p-3">
+                  <i class="bi bi-hand-thumbs-up-fill fs-1 text-primary mb-2"></i>
+                  <h6 class="fw-bold">Kualitas Terbaik</h6>
+                </div>
+              </div>
+              <div class="col-6 col-md-6">
+                <div class="card border-0 shadow-sm text-center text-dark h-100 p-3">
+                  <i class="bi bi-people-fill fs-1 text-primary mb-2"></i>
+                  <h6 class="fw-bold">Profesional</h6>
+                </div>
+              </div>
+              <div class="col-6 col-md-6">
+                <div class="card border-0 shadow-sm text-center text-dark h-100 p-3">
+                  <i class="bi bi-emoji-smile-fill fs-1 text-primary mb-2"></i>
+                  <h6 class="fw-bold">Proses Mudah</h6>
+                </div>
+              </div>
+              <div class="col-6 col-md-6">
+                <div class="card border-0 shadow-sm text-center text-dark h-100 p-3">
+                  <i class="bi bi-check-circle-fill fs-1 text-primary mb-2"></i>
+                  <h6 class="fw-bold">Berpengalaman</h6>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
+    </section>
 
-    <!-- Services -->
-    <section class="py-5">
-      <div class="container text-center" data-aos="fade-up">
-        <h2 class="mb-4">Layanan Kami</h2>
+    <!-- Services Section -->
+    <section class="py-5 bg-light" id="layanan">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="fw-bold">Daftar Layanan</h2>
+          <p class="text-muted">Klik setiap kategori di bawah ini untuk melihat rincian layanan yang tersedia.</p>
+        </div>
+
         <div class="row g-4">
-          <div class="col-md-6" data-aos="zoom-in">
+          <!-- Perizinan Konstruksi -->
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="card h-100 shadow-sm">
-              <img src="images/SBU.png" class="card-img-top" alt="SBU" />
-              <div class="card-body">
-                <h5 class="card-title">SBU</h5>
-                <p>Konsultasi & pengurusan Sertifikasi Badan Usaha di bidang konstruksi.</p>
+              <div class="card-body text-center">
+                <i class="bi bi-hammer fs-1 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Perizinan Konstruksi</h5>
+                <button class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#konstruksiList">Lihat Detail</button>
+                <a href="https://wa.me/6285280438151?text=Halo%20Kapilar%20Consulting,%20saya%20ingin%20menanyakan%20tentang%20*Perizinan%20Konstruksi*." target="_blank" class="btn btn-primary w-100">
+                  <i class="bi bi-whatsapp me-2"></i>Pilih Layanan
+                </a>
+                <div class="collapse mt-3" id="konstruksiList">
+                  <ul class="list-group text-start">
+                    <li class="list-group-item">Sertifikat Badan Usaha (SBU)</li>
+                    <li class="list-group-item">Sertifikat Kompetensi Kerja (SKK)</li>
+                    <li class="list-group-item">Kartu Tanda Anggota (KTA)</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" data-aos="zoom-in">
+
+          <!-- Perizinan Badan Usaha -->
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="card h-100 shadow-sm">
-              <img src="images/PBGSLF.png" class="card-img-top" alt="PBG & SLF" />
-              <div class="card-body">
-                <h5 class="card-title">PBG & SLF</h5>
-                <p>Pendampingan penerbitan Persetujuan Bangunan Gedung & Sertifikat Laik Fungsi.</p>
+              <div class="card-body text-center">
+                <i class="bi bi-building fs-1 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Perizinan Badan Usaha</h5>
+                <button class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#badanUsahaList">Lihat Detail</button>
+                <a href="https://wa.me/6285280438151?text=Halo%20Kapilar%20Consulting,%20saya%20ingin%20menanyakan%20tentang%20*Perizinan%20Badan%20Usaha*." target="_blank" class="btn btn-primary w-100">
+                  <i class="bi bi-whatsapp me-2"></i>Pilih Layanan
+                </a>
+                <div class="collapse mt-3" id="badanUsahaList">
+                  <ul class="list-group text-start">
+                    <li class="list-group-item">Legalitas Badan Usaha</li>
+                    <li class="list-group-item">Perizinan HAKI</li>
+                    <li class="list-group-item">PKKPR / Izin Lokasi</li>
+                    <li class="list-group-item">Sertifikat Halal</li>
+                    <li class="list-group-item">ISO, Izin Ekspor Impor</li>
+                    <li class="list-group-item">Sewa Alamat Kantor</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" data-aos="zoom-in">
+
+          <!-- Perizinan Gedung -->
+          <div class="col-md-4" data-aos="zoom-in">
             <div class="card h-100 shadow-sm">
-              <img src="images/UKL.png" class="card-img-top" alt="AMDAL" />
-              <div class="card-body">
-                <h5 class="card-title">AMDAL - UKL/UPL</h5>
-                <p>Layanan perizinan lingkungan untuk memastikan kepatuhan hukum.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6" data-aos="zoom-in">
-            <div class="card h-100 shadow-sm">
-              <img src="images/PTCV.png" class="card-img-top" alt="Pendirian Usaha" />
-              <div class="card-body">
-                <h5 class="card-title">Pendirian PT/CV/PMA</h5>
-                <p>Jasa pendirian badan usaha, akta, NIB, kontrak, hingga dokumen legal lengkap.</p>
+              <div class="card-body text-center">
+                <i class="bi bi-house fs-1 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Perizinan Gedung</h5>
+                <button class="btn btn-outline-primary w-100 mb-2" data-bs-toggle="collapse" data-bs-target="#gedungList">Lihat Detail</button>
+                <a href="https://wa.me/6285280438151?text=Halo%20Kapilar%20Consulting,%20saya%20ingin%20menanyakan%20tentang%20*Perizinan%20Gedung*." target="_blank" class="btn btn-primary w-100">
+                  <i class="bi bi-whatsapp me-2"></i>Pilih Layanan
+                </a>
+                <div class="collapse mt-3" id="gedungList">
+                  <ul class="list-group text-start">
+                    <li class="list-group-item">Persetujuan Bangunan Gedung (PBG)</li>
+                    <li class="list-group-item">Sertifikat Laik Fungsi (SLF)</li>
+                    <li class="list-group-item">SPPL, UKL UPL, AMDAL</li>
+                    <li class="list-group-item">TKBT / Bangunan Tinggi</li>
+                    <li class="list-group-item">KRK, Site Plan, SLO Rekom</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -86,7 +169,9 @@
               <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
               <h5 class="fw-bold">Kapilar Consulting</h5>
             </div>
-            <p>Layanan profesional dalam legalitas konstruksi, perizinan usaha, dan sertifikasi badan usaha di seluruh Indonesia.</p>
+            <p>
+              Layanan profesional dalam legalitas konstruksi, perizinan usaha, dan sertifikasi badan usaha di seluruh Indonesia.
+            </p>
           </div>
           <div class="col-md-4 mb-4">
             <h6 class="fw-bold mb-3">Kontak</h6>
@@ -95,16 +180,17 @@
             <div class="contact-item"><i class="bi bi-geo-alt-fill"></i><span>Perkantoran Ruko Ayodhya, Unit RK003, Lt. Dasar Tower Jade, Kota Tangerang</span></div>
           </div>
           <div class="col-md-4 mb-4">
-            <h6 class="fw-bold mb-3">Navigasi</h6>
-            <ul class="list-unstyled">
-              <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
-              <li><a href="about.html" class="text-light text-decoration-none">Tentang Kami</a></li>
-              <li><a href="services.html" class="text-light text-decoration-none">Layanan</a></li>
-              <li><a href="team.html" class="text-light text-decoration-none">Tim Kami</a></li>
-              <li><a href="clients.html" class="text-light text-decoration-none">Klien</a></li>
-              <li><a href="contact.html" class="text-light text-decoration-none">Kontak</a></li>
-            </ul>
-          </div>
+  <h6 class="fw-bold mb-3">Navigasi</h6>
+  <ul class="list-unstyled">
+    <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
+    <li><a href="about.html" class="text-light text-decoration-none">Tentang Kami</a></li>
+    <li><a href="services.html" class="text-light text-decoration-none">Layanan</a></li>
+    <li><a href="kode-sbu.html" class="text-light text-decoration-none">Kode SBU</a></li>
+    <li><a href="clients.html" class="text-light text-decoration-none">Klien</a></li>
+    <li><a href="contact.html" class="text-light text-decoration-none">Kontak</a></li>
+  </ul>
+</div>
+
         </div>
         <hr class="border-secondary" />
         <p class="text-center mb-0 small">&copy; 2025 Kapilar Consulting. All rights reserved.</p>
@@ -115,6 +201,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>AOS.init({ duration: 1000, once: true });</script>
+    <script>
+      AOS.init({ duration: 1000, once: true });
+    </script>
   </body>
 </html>

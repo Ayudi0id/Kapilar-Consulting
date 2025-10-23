@@ -1,0 +1,23 @@
+[
+  {
+    "kode_kbli": "71101",
+    "judul_kbli": "Jasa Arsitektural Bangunan Gedung Hunian dan Non Hunian",
+    "kode_subklasifikasi": "AR001",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+  },
+  {
+    "kode_kbli": "71101",
+    "judul_kbli": "Jasa Arsitektural Lainnya",
+    "kode_subklasifikasi": "AR002",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+  },
+  {
+    "kode_kbli": "74120",
+    "judul_kbli": "Jasa Desain Interior pada Bangunan Gedung dan Bangunan Sipil",
+    "kode_subklasifikasi": "AR003",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+  }
+]

@@ -22,14 +22,14 @@ body {
 }
 
 .navbar .nav-link {
-  color: #0a2a66 !important;
+  color: #0f4868 !important;
   font-weight: 600;
   transition: color 0.3s;
 }
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-  color: #d4a017 !important; /* gold highlight */
+  color: #f3b705 !important; /* gold highlight */
 }
 
 .navbar-toggler {
@@ -258,4 +258,125 @@ input[type="number"]::-webkit-outer-spin-button {
     max-width: 33.3333%;
   }
 }
+.btn-primary {
+  background-color: #25D366 !important;
+  border-color: #25D366 !important;
+  transition: all 0.3s ease;
+}
 
+.btn-primary:hover {
+  background-color: #1ebe5b !important;
+  border-color: #1ebe5b !important;
+  transform: scale(1.05);
+}
+
+.btn-primary:active {
+  background-color: #1aa84a !important;
+  border-color: #1aa84a !important;
+  transform: scale(0.97);
+}
+
+/* Jaminan Layanan Section */
+#jaminan {
+  background-color: #fff;
+}
+
+#jaminan .card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+#jaminan .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ==============================
+   LAYANAN HEADER SECTION
+============================== */
+.layanan-header {
+  background: url(images/service-bg.jpg) no-repeat center center/cover;
+  min-height: 80vh;
+  padding: 5rem 0;
+  position: relative;
+}
+
+.layanan-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 42, 102, 0.7);
+}
+
+.layanan-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.layanan-header h1 {
+  font-size: 2.8rem;
+}
+
+@media (max-width: 768px) {
+  .layanan-header {
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+
+  .layanan-header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Tambahkan jarak ekstra antara header dan daftar layanan */
+#layanan {
+  margin-top: 3rem;
+}
+
+/* Efek hover kontak */
+.contact-link a {
+  color: #333;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-link a:hover {
+  transform: scale(1.05);
+}
+
+/* WhatsApp */
+.contact-link.whatsapp a:hover {
+  color: #25D366;
+}
+.contact-link.whatsapp a:active {
+  color: #128C7E;
+}
+
+/* Instagram */
+.contact-link.instagram a:hover {
+  color: #E1306C;
+}
+.contact-link.instagram a:active {
+  color: #C13584;
+}
+
+/* Email (Gmail) */
+.contact-link.email a:hover {
+  color: #D44638;
+}
+.contact-link.email a:active {
+  color: #A52A2A;
+}
+
+/* Lokasi (Google Maps) */
+.contact-link.location a:hover {
+  color: #34A853; /* Hijau Google Maps */
+}
+.contact-link.location a:active {
+  color: #0F9D58; /* Hijau tua */
+}
+
+.btn-outline-primary.btn-sm {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
