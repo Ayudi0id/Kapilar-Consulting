@@ -74,6 +74,8 @@ body {
   margin-bottom: 1.5rem;
 }
 
+
+
 /* ==============================
    SECTION HEADERS
 ============================== */
@@ -257,6 +259,8 @@ input[type="number"]::-webkit-outer-spin-button {
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
   }
+
+/* Main Button Color */
 }
 .btn-primary {
   background-color: #25D366 !important;
@@ -275,6 +279,25 @@ input[type="number"]::-webkit-outer-spin-button {
   border-color: #1aa84a !important;
   transform: scale(0.97);
 }
+
+/* Hero carousel primary button */
+#hero-carousel .btn-primary {
+  background-color: #0f3d94 !important; /* your custom color */
+  border-color: #0f3d94 !important;
+}
+
+#hero-carousel .btn-primary:hover {
+  background-color: #0c4077 !important;
+  border-color: #0c4077 !important;
+  transform: scale(1.05);
+}
+
+#hero-carousel .btn-primary:active {
+  background-color: #061e37 !important;
+  border-color: #061e37 !important;
+  transform: scale(0.97);
+}
+
 
 /* Jaminan Layanan Section */
 #jaminan {
@@ -380,3 +403,51 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 6px 14px;
   border-radius: 6px;
 }
+
+/* ==============================
+   HERO CAROUSEL
+============================== */
+#hero-carousel .carousel-item {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 28, 70, 0.65); /* dark overlay */
+  z-index: 1;
+}
+
+#hero-carousel .container {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  max-width: 700px;
+}
+
+#hero-carousel h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+#hero-carousel p {
+  font-size: 1.2rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  #hero-carousel h1 {
+    font-size: 1.9rem;
+  }
+  #hero-carousel p {
+    font-size: 1rem;
+  }
+}
+

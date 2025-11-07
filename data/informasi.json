@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "title": "Kebijakan Privasi",
+      "link": "privacy.html"
+    },
+    {
+      "title": "Syarat & Ketentuan",
+      "link": "terms.html"
+    },
+    {
+      "title": "FAQ",
+      "link": "faq.html"
+    },
+    {
+      "title": "Artikel & Berita",
+      "link": "articles.html"
+    }
+  ]
+}
