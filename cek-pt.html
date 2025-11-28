@@ -60,25 +60,26 @@
       Cek nama PT / CV yang masih tersedia di Menteri Hukum dan HAM.
     </p>
 
-    <form>
+    <form action="process_pt.php" method="POST">
 
-      <input type="text" class="form-control mb-3" placeholder="Nama PT / CV" required />
+  <input type="text" class="form-control mb-3" name="nama_pt" placeholder="Nama PT / CV" required />
 
-      <p class="small text-muted">Tulis nama PT / CV menggunakan huruf besar / kapital</p>
-      <p class="small">Contoh : <strong>PT BANGUN JIWA BERSAMA</strong></p>
+  <p class="small text-muted">Tulis nama PT / CV menggunakan huruf besar / kapital</p>
+  <p class="small">Contoh : <strong>PT BANGUN JIWA BERSAMA</strong></p>
 
-      <input type="text" class="form-control mb-3" placeholder="Nama Pemohon" required />
-      <input type="email" class="form-control mb-3" placeholder="Email Pemohon" required />
-      <input type="text" class="form-control mb-3" placeholder="Nomor HP Pemohon" required />
+  <input type="text" class="form-control mb-3" name="nama_pemohon" placeholder="Nama Pemohon" required />
+  <input type="email" class="form-control mb-3" name="email" placeholder="Email Pemohon" required />
+  <input type="text" class="form-control mb-3" name="hp" placeholder="Nomor HP Pemohon" required />
 
-      <textarea rows="4" class="form-control mb-4" placeholder="Pertanyaan"></textarea>
+  <textarea rows="4" class="form-control mb-4" name="pertanyaan" placeholder="Pertanyaan"></textarea>
 
-      <p class="small text-muted">Ketersediaan Nama PT akan dikirim melalui email</p>
+  <p class="small text-muted">Ketersediaan Nama PT akan dikirim melalui email</p>
 
-      <button type="submit" class="btn btn-primary w-100 fw-bold">
-        SEND QUESTION
-      </button>
-    </form>
+  <button type="submit" class="btn btn-primary w-100 fw-bold">
+    SEND QUESTION
+  </button>
+</form>
+
 
   </div>
 </section>
@@ -172,6 +173,29 @@
 <script>AOS.init({ duration: 1000, once: true });</script>
 <script src="informasi.js"></script>
 <script src="script.js"></script>
+
+<!-- Popup Modal Sukses -->
+<div class="modal fade" id="successModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title">Berhasil!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        Data Anda berhasil dikirim. Kami akan menghubungi Anda melalui email.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">OK</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
