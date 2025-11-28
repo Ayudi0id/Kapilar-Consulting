@@ -23,7 +23,7 @@
             rgba(0, 0, 0, 0.55),
             rgba(0, 0, 0, 0.55)
           ),
-          url("https://images.unsplash.com/photo-1534126511673-b6899657816a?auto=format&fit=crop&w=1920&q=80")
+          url("images/kode-sbu.jpg")
             center/cover;
         color: white;
         padding: 100px 0;
@@ -110,20 +110,22 @@
       </div>
     </section>
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer-section text-light py-5">
       <div class="container">
         <div class="row">
           
           <!-- Logo & deskripsi -->
-          <div class="col-md-3 mb-4">
-            <div class="d-flex align-items-center mb-3">
-              <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
-              <h5 class="fw-bold">Kapilar Consulting</h5>
-            </div>
-            <p>Layanan profesional dalam legalitas konstruksi, perizinan usaha, dan sertifikasi badan usaha di seluruh Indonesia.</p>
-            <p><i class="bi bi-clock"></i> Jam Operasional : 08:00 - 18:00</p>
-          </div>
+          <div class="col-md-3 mb-4 opening-hours">
+    <div class="d-flex align-items-center mb-3">
+      <img src="images/logo.png" alt="Kapilar Consulting" height="30" class="me-2" />
+      <h5 class="fw-bold">Kapilar Consulting</h5>
+    </div>
+    <p>Layanan profesional dalam legalitas konstruksi...</p>
+
+    <p><i class="bi bi-clock"></i> Jam Operasional</p>
+    <p><i class="bi bi-clock"></i> Senin - Jumat 08:00 - 18:00</p>
+</div>
           
           <!-- Contact -->
           <div class="col-md-4 mb-4">
@@ -146,7 +148,7 @@
             
             <div class="contact-item">
               <i class="bi bi-geo-alt-fill"></i>
-              <a href="https://maps.app.goo.gl/ev739FctJgnmQHoo9" target="_blank" class="text-light text-decoration-none ms-2"> Perkantoran Ruko Ayodhya Tower Jade Unit RK003 Jl. Mh. Thamrin Kota Tangerang 15117</a>
+              <a href="https://maps.app.goo.gl/ev739FctJgnmQHoo9" target="_blank" class="text-light text-decoration-none ms-2">Perkantoran Ruko Ayodhya Tower Jade Unit RK003 Jl. Mh. Thamrin Kota Tangerang 15117</a>
               </div>
             
             <div class="contact-item">
@@ -162,23 +164,18 @@
     <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
     <li><a href="about.html" class="text-light text-decoration-none">Tentang Kami</a></li>
     <li><a href="services.html" class="text-light text-decoration-none">Layanan</a></li>
-    <li><a href="kode-sbu.html" class="text-light text-decoration-none">Kode SBU</a></li>
     <li><a href="clients.html" class="text-light text-decoration-none">Klien</a></li>
     <li><a href="contact.html" class="text-light text-decoration-none">Kontak</a></li>
   </ul>
 </div>
 
-  <!-- Informasi -->
-      <div class="col-md-3 mb-4">
-        <h6 class="fw-bold mb-3">Informasi</h6>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-light text-decoration-none">Kebijakan Privasi</a></li>
-          <li><a href="#" class="text-light text-decoration-none">Syarat & Ketentuan</a></li>
-          <li><a href="#" class="text-light text-decoration-none">FAQ</a></li>
-          <li><a href="#" class="text-light text-decoration-none">Artikel & Berita</a></li>
-        </ul>
-      </div>
-    </div>
+<!-- Informasi -->
+<div class="col-md-3 mb-4">
+  <h6 class="fw-bold mb-3">Informasi</h6>
+  <ul id="informasi-list" class="list-unstyled">
+    <!-- Items will be loaded here automatically -->
+  </ul>
+</div>
 
         </div>
         <hr class="border-secondary" />
@@ -254,5 +251,6 @@
         renderTable(filtered);
       });
     </script>
+    <script src="informasi.js"></script>
   </body>
 </html>

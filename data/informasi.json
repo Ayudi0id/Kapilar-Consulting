@@ -1,20 +1,28 @@
 {
   "articles": [
     {
-      "title": "Kebijakan Privasi",
-      "link": "privacy.html"
+      "title": "Sertifikasi Badan Usaha Jasa Konstruksi (SBUJK)",
+      "link": "article1.html"
     },
     {
-      "title": "Syarat & Ketentuan",
-      "link": "terms.html"
+      "title": "Sertifikat Badan Usaha Jasa Penunjang Tenaga Listrik (SBUJPTL)",
+      "link": "article2.html"
     },
     {
-      "title": "FAQ",
-      "link": "faq.html"
+      "title": "Informasi Layanan Lain",
+      "link": "article3.html"
     },
     {
-      "title": "Artikel & Berita",
-      "link": "articles.html"
+      "title": "Testimony",
+      "link": "testimony.html"
+    },
+    {
+      "title": "Kode Sbu",
+      "link": "kode-sbu.html"
+    },
+    {
+      "title": "Cek Nama PT",
+      "link": "cek-pt.html"
     }
   ]
 }

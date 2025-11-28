@@ -9,6 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
   </head>
+
+<!-- Popup Promo -->
+<div class="modal fade" id="promoModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered promo-dialog">
+    <div class="modal-content promo-content">
+
+      <button type="button" 
+        class="btn-close promo-close" 
+        data-bs-dismiss="modal" 
+        aria-label="Close">
+      </button>
+
+      <img 
+        src="images/paket-sbujk.png" 
+        alt="Promo Paket SBUJK" 
+        class="promo-image"
+      >
+
+    </div>
+  </div>
+</div>
+
+
+
+
   <body>
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg sticky-top">
@@ -93,6 +118,7 @@
       <div class="container text-center" data-aos="fade-up">
         <h2 class="mb-4">Layanan Utama</h2>
         <div class="row g-4 justify-content-center">
+          
           <!-- Perizinan Konstruksi -->
           <div class="col-md-4" data-aos="zoom-in">
             <div class="card h-100 shadow-sm">
@@ -148,21 +174,22 @@
       </div>
     </section>
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer-section text-light py-5">
       <div class="container">
         <div class="row">
           
           <!-- Logo & deskripsi -->
-          <div class="col-md-3 mb-4">
-            <div class="d-flex align-items-center mb-3">
-              <img src="images/logo.png" alt="Kapilar Consulting" height="40" class="me-2" />
-              <h5 class="fw-bold">Kapilar Consulting</h5>
-            </div>
-            <p>Layanan profesional dalam legalitas konstruksi, perizinan usaha, dan sertifikasi badan usaha di seluruh Indonesia.</p>
-            <p><i class="bi bi-clock"></i> Jam Operasional : 08:00 - 18:00</p>
-          </div>
-          
+          <div class="col-md-3 mb-4 opening-hours">
+    <div class="d-flex align-items-center mb-3">
+      <img src="images/logo.png" alt="Kapilar Consulting" height="30" class="me-2" />
+      <h5 class="fw-bold">Kapilar Consulting</h5>
+    </div>
+    <p>Layanan profesional dalam legalitas konstruksi...</p>
+
+    <p><i class="bi bi-clock"></i> Jam Operasional</p>
+    <p><i class="bi bi-clock"></i> Senin - Jumat 08:00 - 18:00</p>
+</div>
           <!-- Contact -->
           <div class="col-md-4 mb-4">
             <h6 class="fw-bold mb-3">Kontak</h6>
@@ -174,17 +201,17 @@
             
             <div class="contact-item">
               <i class="bi bi-instagram"></i>
-              <a href="https://www.instagram.com/kapilarconsulting" target="_blank" class="text-light text-decoration-none"><span>@kapilarconsulting</span></a>
+              <a href="https://www.instagram.com/kapilar_consulting/" target="_blank" class="text-light text-decoration-none"><span>@kapilar_consulting</span></a>
               </div>
 
             <div class="contact-item">
               <i class="bi bi-envelope-fill"></i>
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kapilar_consulting@gmail.com" target="_blank" class="text-light text-decoration-none"><span>kapilar_consulting@gmail.com</span>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sakapilarpersada@gmail.com" target="_blank" class="text-light text-decoration-none"><span>sakapilarpersada@gmail.com</span>
               </div>
             
             <div class="contact-item">
               <i class="bi bi-geo-alt-fill"></i>
-              <a href="https://maps.app.goo.gl/ev739FctJgnmQHoo9" target="_blank" class="text-light text-decoration-none ms-2"> Perkantoran Ruko Ayodhya Tower Jade Unit RK003 Jl. Mh. Thamrin Kota Tangerang 15117</a>
+              <a href="https://maps.app.goo.gl/ev739FctJgnmQHoo9" target="_blank" class="text-light text-decoration-none ms-2">Perkantoran Ruko Ayodhya Tower Jade Unit RK003 Jl. Mh. Thamrin Kota Tangerang 15117</a>
               </div>
             
             <div class="contact-item">
@@ -194,13 +221,12 @@
           </div>
 
           <!-- Navigasi -->
-          <div class="col-md-2 mb-4">
+          <div class="col-md-2 mb-3">
   <h6 class="fw-bold mb-3">Navigasi</h6>
   <ul class="list-unstyled">
     <li><a href="index.html" class="text-light text-decoration-none">Beranda</a></li>
     <li><a href="about.html" class="text-light text-decoration-none">Tentang Kami</a></li>
     <li><a href="services.html" class="text-light text-decoration-none">Layanan</a></li>
-    <li><a href="kode-sbu.html" class="text-light text-decoration-none">Kode SBU</a></li>
     <li><a href="clients.html" class="text-light text-decoration-none">Klien</a></li>
     <li><a href="contact.html" class="text-light text-decoration-none">Kontak</a></li>
   </ul>
@@ -227,5 +253,6 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>AOS.init({ duration: 1000, once: true });</script>
     <script src="informasi.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,23 +1,541 @@
 [
   {
-    "kode_kbli": "71101",
-    "judul_kbli": "Jasa Arsitektural Bangunan Gedung Hunian dan Non Hunian",
-    "kode_subklasifikasi": "AR001",
+    "kode_kbli": "41011",
+    "judul_kbli": "Konstruksi Gedung Hunian",
+    "kode_subklasifikasi": "BG001",
     "jenis_usaha": "Umum",
-    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+    "kualifikasi": "KMB"
   },
   {
-    "kode_kbli": "71101",
-    "judul_kbli": "Jasa Arsitektural Lainnya",
-    "kode_subklasifikasi": "AR002",
+    "kode_kbli": "41012",
+    "judul_kbli": "Konstruksi Gedung Perkantoran",
+    "kode_subklasifikasi": "BG002",
     "jenis_usaha": "Umum",
-    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+    "kualifikasi": "KMB"
   },
   {
-    "kode_kbli": "74120",
-    "judul_kbli": "Jasa Desain Interior pada Bangunan Gedung dan Bangunan Sipil",
-    "kode_subklasifikasi": "AR003",
+    "kode_kbli": "41013",
+    "judul_kbli": "Konstruksi Gedung Industri",
+    "kode_subklasifikasi": "BG003",
     "jenis_usaha": "Umum",
-    "kualifikasi": "KMB BUJKN, B PMA, B BUJKA"
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41014",
+    "judul_kbli": "Konstruksi Gedung Perbelanjaan",
+    "kode_subklasifikasi": "BG004",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41015",
+    "judul_kbli": "Konstruksi Gedung Kesehatan",
+    "kode_subklasifikasi": "BG005",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41016",
+    "judul_kbli": "Konstruksi Gedung Pendidikan",
+    "kode_subklasifikasi": "BG006",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41017",
+    "judul_kbli": "Konstruksi Gedung Penginapan",
+    "kode_subklasifikasi": "BG007",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41018",
+    "judul_kbli": "Konstruksi Gedung Hiburan dan Olahraga",
+    "kode_subklasifikasi": "BG008",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41019",
+    "judul_kbli": "Konstruksi Gedung Lainnya",
+    "kode_subklasifikasi": "BG009",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42101",
+    "judul_kbli": "Konstruksi Bangunan Sipil Jalan",
+    "kode_subklasifikasi": "BS001",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42102",
+    "judul_kbli": "Jembatan, Jalan Layang, Flay Over, dan Underpass",
+    "kode_subklasifikasi": "BS002",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42103",
+    "judul_kbli": "Konstruksi Jalan Rel",
+    "kode_subklasifikasi": "BS003",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42201",
+    "judul_kbli": "Konstruksi Jaringan Irigasi dan Drainase",
+    "kode_subklasifikasi": "BS004",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42202",
+    "judul_kbli": "Konstruksi Bangunan Sipil Pengolahan Air Bersih",
+    "kode_subklasifikasi": "BS005",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42203",
+    "judul_kbli": "Konstruksi Prasarana & Sarana Sistem Pengolahan Limbah",
+    "kode_subklasifikasi": "BS006",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42204",
+    "judul_kbli": "Konstruksi Bangunan Sipil Elektrikal",
+    "kode_subklasifikasi": "BS007",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42205",
+    "judul_kbli": "Konstruksi Telekomunikasi untuk Prasarana Transportasi",
+    "kode_subklasifikasi": "BS008",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42206",
+    "judul_kbli": "Konstruksi Sentral Telekomunikasi",
+    "kode_subklasifikasi": "BS009",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42911",
+    "judul_kbli": "Konstruksi Bangunan Prasarana SDA",
+    "kode_subklasifikasi": "BS010",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42912",
+    "judul_kbli": "Konstruksi Bangunan Pelabuhan Bukan Perikanan",
+    "kode_subklasifikasi": "BS011",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42913",
+    "judul_kbli": "Konstruksi Bangunan Pelabuhan Perikanan",
+    "kode_subklasifikasi": "BS012",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42915",
+    "judul_kbli": "Konstruksi Bangunan Sipil Minyak dan Gas",
+    "kode_subklasifikasi": "BS013",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42916",
+    "judul_kbli": "Konstruksi Bangunan Sipil Pertambangan",
+    "kode_subklasifikasi": "BS014",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42917",
+    "judul_kbli": "Konstruksi Bangunan Sipil Panas Bumi",
+    "kode_subklasifikasi": "BS015",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42918",
+    "judul_kbli": "Konstruksi Fasilitas Olah Raga",
+    "kode_subklasifikasi": "BS016",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42919",
+    "judul_kbli": "Konstruksi Bangunan Sipil Lainnya Ytdl",
+    "kode_subklasifikasi": "BS017",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42923",
+    "judul_kbli": "Konstruksi Fasilitas Pengolahan Produk Kimia & Industri",
+    "kode_subklasifikasi": "BS018",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42924",
+    "judul_kbli": "Konstruksi Fasilitas Militer & Peluncuran Satelit",
+    "kode_subklasifikasi": "BS019",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "42209",
+    "judul_kbli": "Konstruksi Jaringan Irigasi, Komunikasi, dan Limbah Lainnya",
+    "kode_subklasifikasi": "BS020",
+    "jenis_usaha": "Umum",
+    "kualifikasi": "KMB"
+  },
+  {
+    "kode_kbli": "41020",
+    "judul_kbli": "Konstruksi Prapabrikasi Bangunan Gedung",
+    "kode_subklasifikasi": "KP001",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42930",
+    "judul_kbli": "Prapabrikasi Bangunan Sipil",
+    "kode_subklasifikasi": "KP002",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42914",
+    "judul_kbli": "Pengerukan",
+    "kode_subklasifikasi": "PL001",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43120",
+    "judul_kbli": "Pembongkaran Bangunan",
+    "kode_subklasifikasi": "PL002",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43120",
+    "judul_kbli": "Penyiapan Lahan Konstruksi",
+    "kode_subklasifikasi": "PL003",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43120",
+    "judul_kbli": "Penyiapan Lahan",
+    "kode_subklasifikasi": "PL004",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42207",
+    "judul_kbli": "Pengeboran Sumur Air Tanah",
+    "kode_subklasifikasi": "PL005",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43120",
+    "judul_kbli": "Pekerjaan Utilitas",
+    "kode_subklasifikasi": "PL006",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43120",
+    "judul_kbli": "Survei Penyelidikan Lapangan",
+    "kode_subklasifikasi": "PL007",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43902",
+    "judul_kbli": "Pemasangan Perancah (Staiger)",
+    "kode_subklasifikasi": "PL008",
+    "jenis_usaha": "Spesialis Bangunan Sipil",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43291",
+    "judul_kbli": "Instalasi Mekanikal",
+    "kode_subklasifikasi": "IN001",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43212",
+    "judul_kbli": "Instalasi Telekomunikasi",
+    "kode_subklasifikasi": "IN002",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43299",
+    "judul_kbli": "Instalasi Peralatan Infrastruktur Pertambangan & Manufaktur",
+    "kode_subklasifikasi": "IN003",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43223",
+    "judul_kbli": "Instalasi Minyak dan Gas",
+    "kode_subklasifikasi": "IN004",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43214",
+    "judul_kbli": "Instalasi Navigasi Laut, Sungai, Udara",
+    "kode_subklasifikasi": "IN005",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43213",
+    "judul_kbli": "Instalasi Elektronika",
+    "kode_subklasifikasi": "IN006",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43221",
+    "judul_kbli": "Instalasi saluran air (plambing)",
+    "kode_subklasifikasi": "IN007",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43224",
+    "judul_kbli": "Instalasi Pendingin Dan Ventilasi Udara",
+    "kode_subklasifikasi": "IN008",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43299",
+    "judul_kbli": "Instalasi Pengolahan Air Untuk Pembangkit Listrik",
+    "kode_subklasifikasi": "IN010",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43216",
+    "judul_kbli": "Instalasi Sinyal & Rambu Jalan Raya",
+    "kode_subklasifikasi": "IN011",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43215",
+    "judul_kbli": "Instalasi Sinyal Kereta Api",
+    "kode_subklasifikasi": "IN012",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43222",
+    "judul_kbli": "Instalasi Pemanas dan Geotermal",
+    "kode_subklasifikasi": "IN013",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43292",
+    "judul_kbli": "Instalasi Meteorologi, Klimatologi & Geofisika",
+    "kode_subklasifikasi": "IN014",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43301",
+    "judul_kbli": "Pemasangan Kaca dan Aluminium",
+    "kode_subklasifikasi": "PB001",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43302",
+    "judul_kbli": "Pekerjaan Lantai Saniter",
+    "kode_subklasifikasi": "PB003",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43304",
+    "judul_kbli": "Dekorasi Interior",
+    "kode_subklasifikasi": "PB004",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43304",
+    "judul_kbli": "Pemasangan Ornamen & Pekerjaan Seni",
+    "kode_subklasifikasi": "PB005",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43303",
+    "judul_kbli": "Pengecatan",
+    "kode_subklasifikasi": "PB007",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43309",
+    "judul_kbli": "Pembersihan dan Perapihan Bangunan",
+    "kode_subklasifikasi": "PB009",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43305",
+    "judul_kbli": "Pekerjaan Lanskap & Pertamanan",
+    "kode_subklasifikasi": "PB010",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43309",
+    "judul_kbli": "Pemulihan Lahan Konstruksi",
+    "kode_subklasifikasi": "PB011",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43901",
+    "judul_kbli": "Pondasi Konstruksi",
+    "kode_subklasifikasi": "KK001",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42921",
+    "judul_kbli": "Reservoir PLTA",
+    "kode_subklasifikasi": "KK002",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42921",
+    "judul_kbli": "Intake, Gate, Penstock, Outflow PLTA",
+    "kode_subklasifikasi": "KK003",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42922",
+    "judul_kbli": "Pelindung Pantai",
+    "kode_subklasifikasi": "KK004",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Rigid Pavement",
+    "kode_subklasifikasi": "KK005",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Kedap Air, Minyak, Gas",
+    "kode_subklasifikasi": "KK006",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43302",
+    "judul_kbli": "Lanskap & Pertamanan",
+    "kode_subklasifikasi": "KK007",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Perkerasan Aspal",
+    "kode_subklasifikasi": "KK008",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Perkerasan Berbutir",
+    "kode_subklasifikasi": "KK009",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Drilling & Grouting",
+    "kode_subklasifikasi": "KK010",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43903",
+    "judul_kbli": "Rangka & Atap",
+    "kode_subklasifikasi": "KK011",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Struktur Beton",
+    "kode_subklasifikasi": "KK012",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Beton Pascatarik",
+    "kode_subklasifikasi": "KK013",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "42104",
+    "judul_kbli": "Terowongan",
+    "kode_subklasifikasi": "KK014",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43909",
+    "judul_kbli": "Konstruksi Tahan Api",
+    "kode_subklasifikasi": "KK015",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43904",
+    "judul_kbli": "Kerangka Baja",
+    "kode_subklasifikasi": "KK016",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
+  },
+  {
+    "kode_kbli": "43905",
+    "judul_kbli": "Penyewaan Peralatan Konstruksi",
+    "kode_subklasifikasi": "PA001",
+    "jenis_usaha": "Spesialis",
+    "kualifikasi": "-"
   }
 ]
