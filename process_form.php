@@ -1,28 +1,19 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";//ganti password baru
-$db   = "kapilar_db";
+$conn = new mysqli("localhost", "root", "", "kapilar_db");
+if ($conn->connect_error) die("Koneksi gagal: " . $conn->connect_error);
 
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
-
-// Ambil data sesuai name="" di HTML
 $nama     = $_POST['nama'];
 $email    = $_POST['email'];
 $telepon  = $_POST['telepon'];
 $pesan    = $_POST['pesan'];
 
-$sql = "INSERT INTO contact_messages (name, email, phone, message)
+$sql = "INSERT INTO kontak_masuk (nama_pengirim, email, no_hp, pesan)
         VALUES ('$nama', '$email', '$telepon', '$pesan')";
 
 if ($conn->query($sql) === TRUE) {
     echo "<script>
             alert('Pesan berhasil dikirim!');
-            window.location.href='contact.html';
+            window.history.go(-1);
           </script>";
 } else {
     echo 'Error: ' . $conn->error;

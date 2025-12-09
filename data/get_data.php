@@ -1,41 +1,27 @@
 <?php
 header("Content-Type: application/json");
 
-// ================= TOKEN KEAMANAN =================
-$secret = "Thisisatest1"; // ganti sesuai keinginanmu
+$secret = "Thisisatest1";
 
 if (!isset($_GET['key']) || $_GET['key'] !== $secret) {
-    http_response_code(403); 
-    echo json_encode(["error" => "Invalid or missing API key"]);
+    http_response_code(403);
+    echo json_encode(["error" => "Invalid API key"]);
     exit;
 }
 
-// ================= KONEKSI DATABASE =================
 $conn = new mysqli("localhost", "root", "", "kapilar_db");
+if ($conn->connect_error) die(json_encode(["error" => "DB error"]));
 
-if ($conn->connect_error) {
-    echo json_encode(["error" => "Database connection error"]);
-    exit;
-}
-
-// ================= CONTACT_MESSAGES =================
-$result1 = $conn->query("SELECT * FROM contact_messages ORDER BY id DESC");
+$result1 = $conn->query("SELECT * FROM kontak_masuk ORDER BY id DESC");
 $contact = [];
-while ($row = $result1->fetch_assoc()) {
-    $contact[] = $row;
-}
+while ($row = $result1->fetch_assoc()) $contact[] = $row;
 
-// ================= CEK_PT =================
-$result2 = $conn->query("SELECT * FROM cek_pt ORDER BY id DESC");
+$result2 = $conn->query("SELECT * FROM permohonan_cek_pt ORDER BY id DESC");
 $cekpt = [];
-while ($row2 = $result2->fetch_assoc()) {
-    $cekpt[] = $row2;
-}
+while ($row = $result2->fetch_assoc()) $cekpt[] = $row;
 
-// ================= OUTPUT JSON =================
 echo json_encode([
-    "contact_messages" => $contact,
-    "cek_pt"           => $cekpt
+    "kontak_masuk" => $contact,
+    "permohonan_cek_pt" => $cekpt
 ], JSON_PRETTY_PRINT);
-
 ?>
